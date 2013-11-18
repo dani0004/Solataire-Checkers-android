@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solitaire Checkers</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_settings">Settings</string>
+    <string name="contentDescriptionFalse">nopeg</string>
+    <string name="contentDescriptionTrue">peg</string>
+    <string-array name="checkers_arrays">
+        <item>Solitaire</item>
+        <item>Arrow</item>
+        <item>Cross</item>
+        <item>Diamond</item>
+        <item>Double Arrow</item>
+        <item>Fireplace</item>
+        <item>Plus</item>
+        <item>Pyramid</item>
+     </string-array>
+      <string name="game_prompt">Choose a game</string>
+     <string name="lost_message">Solitaire checkers - Game is lost"</string>
+      <string name="OK">OK</string>
+      <string name="resetButton">Reset</string>
+     <string name="won_message1">Solitaire checkers - Game is won!"</string>
+     <string name="won_message2">Solitaire checkers - Game is super won!"</string>
+     
+
+</resources>

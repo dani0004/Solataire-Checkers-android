@@ -1,0 +1,557 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    
+    android:padding="15dp"
+    android:columnCount="7"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+   <GridLayout
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+         android:layout_width="fill_parent"
+        
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_row="0" >
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/checkers_arrays" />
+</GridLayout>
+    <GridLayout
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+         android:layout_width="fill_parent"
+         
+       
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_row="1" >
+      <ImageButton
+               android:id="@+id/r0c0"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               
+               android:src="@drawable/nopeg" />
+      <ImageButton
+               android:id="@+id/r0c1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+      <ImageButton
+               android:id="@+id/r0c2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+             
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+
+           <ImageButton
+               android:id="@+id/r0c3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+
+           <ImageButton
+               android:id="@+id/r0c4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+
+           <ImageButton
+               android:id="@+id/r0c5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+
+           <ImageButton
+               android:id="@+id/r0c6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+	     	   android:contentDescription="@string/contentDescriptionFalse"
+	     	   android:onClick="handleImageButton"
+               android:src="@drawable/nopeg" />
+      
+    </GridLayout>
+
+    <GridLayout
+        android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+        
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="2" >
+      <ImageButton
+	     android:id="@+id/r1c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	    
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r1c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r1c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r1c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r1c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	   
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r1c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r1c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+              
+        
+
+    </GridLayout>
+     <GridLayout
+        android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="3" >
+	 <ImageButton
+	     android:id="@+id/r2c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r2c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r2c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r2c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r2c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r2c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r2c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+         
+	</GridLayout>
+	<GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="4" >
+	 <ImageButton
+	     android:id="@+id/r3c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r3c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r3c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r3c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r3c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r3c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r3c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	    
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	    
+	 </GridLayout>
+	 <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="5" >
+	 <ImageButton
+	     android:id="@+id/r4c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r4c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r4c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r4c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r4c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r4c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r4c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />  
+	 </GridLayout>
+	 <GridLayout
+        android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+        
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="6" >
+	   <ImageButton
+	     android:id="@+id/r5c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r5c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r5c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r5c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r5c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r5c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r5c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  
+	     
+	 </GridLayout> 
+	  <GridLayout
+        android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="7" > 
+      <ImageButton
+	     android:id="@+id/r6c0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+     <ImageButton
+	     android:id="@+id/r6c1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r6c2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r6c3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" /> 
+	  <ImageButton
+	     android:id="@+id/r6c4"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	  <ImageButton
+	     android:id="@+id/r6c5"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />
+	   <ImageButton
+	     android:id="@+id/r6c6"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     
+	     android:contentDescription="@string/contentDescriptionFalse"
+	     android:onClick="handleImageButton"
+	     android:src="@drawable/nopeg" />  
+     </GridLayout>
+     <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_width="fill_parent"
+        
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        
+        android:layout_gravity="left|top"
+        android:layout_row="8" >   
+	   <ProgressBar
+         android:id="@+id/progressBar"
+		 android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+        
+         
+	     style="@android:style/Widget.ProgressBar.Horizontal"
+        />
+    </GridLayout>
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        
+        android:layout_gravity="left|top"
+        android:layout_row="9" >    
+    
+     <Button
+         android:id="@+id/resetButton"
+		 android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/resetButton"
+	     android:onClick="handleResetButton"
+        />
+     
+	</GridLayout>
+ 
+     
+
+	         
+</GridLayout>
